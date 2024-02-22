@@ -1,0 +1,2487 @@
+
+FROM llama2
+TEMPLATE """
+<s>
+[INST]
+{{- if .First }}
+<<SYS>>
+{{.System}}
+<</SYS>>
+{{- end }}
+
+Name this poem which opens with its title object relating the murder of its crew, after which it runs into the "furious lashing of the tides".
+[/INST]
+The Drunken Boat [or Le Bateau Ivre]
+</s>
+
+<s>
+[INST]
+The Drunken Boat was written by this French poet of A Season in Hell. He engaged in a torrid affair with Paul Verlaine and abandoned poetry by age 20.
+[/INST]
+Arthur Rimbaud [or Jean Nicolas Arthur Rimbaud]
+</s>
+
+<s>
+[INST]
+Rimbaud wrote of a "sublime Trumpet full of strange piercing sounds" and the "divine shudderings of viridian seas" in a poem assigning colors to these entities. Georges Perec's novel A Void only includes four of them.
+[/INST]
+the vowels [accept A, E, I, O, and U in any order]
+</s>
+
+<s>
+[INST]
+Name this play by Ariel Dorfman in which Paulina tells her husband that Dr. Miranda tortured and raped her while playing the title string quartet.
+[/INST]
+Death and the Maiden
+</s>
+
+<s>
+[INST]
+Near the end of Death and the Maiden, the stage directions call for a gigantic one of these objects to descend. The audience is supposed to absorb its presence for a few minutes before the action continues.
+[/INST]
+mirror [accept equivalents]
+</s>
+
+<s>
+[INST]
+Death and the Maiden is one of the works in the Ariel Dorfman's Resistance Trilogy, which also includes this play about the censor Don Alfonso discovering that the subversive manuscript he is about to ban is actually about himself.
+[/INST]
+Reader
+</s>
+
+<s>
+[INST]
+In 1863, men in New York rioted over this practice, which was in effect thanks to the Civil War. President Lincoln had to round up volunteer forces who had just fought in Gettysburg to quell the riots over this.
+[/INST]
+the draft or forced conscription
+</s>
+
+<s>
+[INST]
+Meanwhile, also in 1863, people rioted over a lack of bread in this Confederate city. The rioters were almost entirely women.
+[/INST]
+Richmond, Virginia
+</s>
+
+<s>
+[INST]
+This 1922 series of riots was not important at all. People smashed in the namesake piece of clothing, as people were wearing them well past the socially acceptable date.
+[/INST]
+Straw Hat Riots of 1922
+</s>
+
+<s>
+[INST]
+Identify this excitingly-named sacrament performed on people who are in danger of dying.
+[/INST]
+extreme unction [or anointing of the sick; prompt on partial answers to be nice]
+</s>
+
+<s>
+[INST]
+Last rites consists of the administration upon a dying person of extreme unction, penance, and this sacrament involving the consumption of a wafer and wine, which represent Christ's body and blood.
+[/INST]
+Eucharist [or Holy Communion; or Last Supper]
+</s>
+
+<s>
+[INST]
+This twelfth-century bishop of Paris was the first writer to enrich our lives by using the phrase "extreme unction." He wrote a widely commented-upon theological compilation in four books.
+[/INST]
+Peter Lombard [or Peter the Lombard; or Petrus Lombardus]
+</s>
+
+<s>
+[INST]
+Name this chemist whose equation relates hydrogen dihedral angles and spin-spin coupling constant.
+[/INST]
+Martin Karplus
+</s>
+
+<s>
+[INST]
+Trailing Karplus one place on the Hirsch index is this chemist who is known for his method of retrosynthesis and for his study of pyridinium chlorochromate with Suggs, among other things.
+[/INST]
+Elias J. Corey
+</s>
+
+<s>
+[INST]
+Both Corey and Karplus were beat out by George Whitesides, whose numerous contributions include his thesis on the configurational stability of these magnesium containing reagents named for a French dude.
+[/INST]
+Grignard reagents
+</s>
+
+<s>
+[INST]
+Designated M33, this galaxy is the third largest member of the Local Group after the Andromeda and the Milky Way. Approximately 3 million light-years away from the earth, some sources conflate it with the Pinwheel Galaxy, although Wikipedia informs me that those are two different things.
+[/INST]
+Triangulum Galaxy
+</s>
+
+<s>
+[INST]
+These two dwarf galaxies which are named “Large” and “Small” are easily visible from the naked eye in the Southern Hemisphere. They’re satellite galaxies of the Milky Way, and they lie approximately 160,000 and 200,000 light-years away from Earth.
+[/INST]
+(Large and Small) Magellanic Clouds
+</s>
+
+<s>
+[INST]
+The Local Group is part of this galactic supercluster, which is well over 100 million light-years in diameter. The Maffei and Sculptor groups are located in this supercluster.
+[/INST]
+Virgo supercluster
+</s>
+
+<s>
+[INST]
+Name this Russian composer of Antar, which treated themes similar to his later symphonic suite Scheherazade. He included a “fandango asturiano” and two settings of an alborada in his Capriccio Espagnole.
+[/INST]
+Nikolai Andreyevich Rimsky-Korsakov
+</s>
+
+<s>
+[INST]
+Rimsky-Korsakov’s opera The Tale of Tsar Saltan contains likely his most famous composition, a sixteenth note-filled interlude depicting the “flight” of Prince Gvidon in the form of one of these insects.
+[/INST]
+a bumblebee [or shmel'; accept “Flight of the Bumblebee”]
+</s>
+
+<s>
+[INST]
+This orchestral work by Rimsky-Korsakov, which makes heavy use of such unusual time signatures as 5/2, 2/1, and 3/1, is an adaptation of a number of liturgical chants from the Obikhod.
+[/INST]
+Russian Easter Festival Overture: Overture on Liturgical Themes, [or Opus 36; or Svetliy prazdnik; or the Great Russian Easter Overture]
+</s>
+
+<s>
+[INST]
+Name this pastoral poem, first published in 1599, which opens with the title speaker's entreaty to "Come live with me and be my Love".
+[/INST]
+"The Passionate Shepherd to His Love"
+</s>
+
+<s>
+[INST]
+"The Passionate Shepherd to His Love" is by this contemporary of Shakespeare, who wrote of the exploits of Barabas in The Jew of Malta. and died in a tavern brawl.
+[/INST]
+Christopher Marlowe [or Kit Marlowe]
+</s>
+
+<s>
+[INST]
+This title character of a Marlowe drama declares that nature "Wills us to wear ourselves and never rest, / Until we reach that ripest fruit of all Â… / The sweet fruition of an earthly crown". More characteristically, this military leader orders Bajazeth to be imprisoned within a cage and used as a footstool.
+[/INST]
+Tamburlaine the Great
+</s>
+
+<s>
+[INST]
+Name this group, also depicted as the segments in a circle surrounding a picture of Christ rising from his tomb in a painting in which they are accompanied by four smaller circles representing the "Four Last Things".
+[/INST]
+the seven deadly sins [or the cardinal sins; or the capital vices; or the Seven Deadly Sins and the Four Last Things]
+</s>
+
+<s>
+[INST]
+The Seven Deadly Sins and the Four Last Things was painted by this Dutch artist of The Conjuror and The Garden of Earthly Delights.
+[/INST]
+Hieronymous Bosch [accept Jeroen, Jheronimus, or Jerome for the first name and Bos, van Aken; or Anthoniszoon for the last name]
+</s>
+
+<s>
+[INST]
+The left side of this other Bosch triptych features three scenes of Adam and Eve in the Garden of Eden. Its outside panels depict the Path of Life, while its center panel shows Jesus in the clouds hovering over figures sitting atop the title conveyance.
+[/INST]
+The Haywain Triptych
+</s>
+
+<s>
+[INST]
+Name this ethnic group which established a capital at Karakorum before sweeping across Eurasia under Genghis Khan.
+[/INST]
+Mongols
+</s>
+
+<s>
+[INST]
+Batu Khan founded this Mongol spinoff, which abutted Eastern Europe until neighboring Russians crushed it at Kulikovo. Leaders of this tent-dwelling group included Tokhtamysh.
+[/INST]
+Golden Horde
+</s>
+
+<s>
+[INST]
+This Khanate of Central Asia, named for Genghis's second son, was located between the Yuan dynasty and the ex-Abbasid Ilkhanate. It lost a lot of land, including Samarkand, to Tamerlane.
+[/INST]
+Chagatai Khanate [or Chagatis]
+</s>
+
+<s>
+[INST]
+Name this 406 BCE naval battle in which Athens defeated Callicratidas's Spartans but disastrously didn't finish them off.
+[/INST]
+Battle of Arginusae
+</s>
+
+<s>
+[INST]
+Arginusae followed the self-imposed exile of this Athenian commander, who was previously deposed after the Sicilian Expedition, recalled, and then overthrown again by factional fighting in the city.
+[/INST]
+Alcibiades [son of Cleinias] [or Alkibiades Kleiniou Skambonides]
+</s>
+
+<s>
+[INST]
+Following Arginusae, Callicratidas's faction was discredited and this admiral regained control over the Spartan fleet. He earlier caused Alcibiades's downfall when he defeated the Athenians at Notium.
+[/INST]
+Lysander [or Lysandros]
+</s>
+
+<s>
+[INST]
+Name these ratios at which one country's currency can be traded for another.
+[/INST]
+foreign exchange rates
+</s>
+
+<s>
+[INST]
+In theory, the balance of payments for a country should always be zero, because the capital and financial account will balance out this account, which accounts for investment earnings and the trade of goods and services.
+[/INST]
+current account
+</s>
+
+<s>
+[INST]
+Name this Rimbaud poem whose title vessel cannot "Follow in the waves of the cotton boats, / Nor cross through the pride of flags and flames, / Nor swim under the eyes of prison ships."
+[/INST]
+"The Drunken Boat" (or "Le Bateau Ivre")
+</s>
+
+<s>
+[INST]
+Arthur Rimbaud is a member of this literary movement whose other members include Auguste Villiers de l'Isle-Adam and Stephane MallarmÃ©.
+[/INST]
+symbolism
+</s>
+
+<s>
+[INST]
+Name this group of missionaries who were executed between 1885 and 1887 by Mwanga II, in part for their seemingly endless interference with Mwanga's sexual conquest of a harem of boy pages.
+[/INST]
+Uganda Martyrs [or Buganda Martyrs; accept descriptive equivalents]
+</s>
+
+<s>
+[INST]
+The twenty-two Catholics among the Uganda Martyrs were canonized in 1964 by this Pope, who closed Vatican II after taking over from his predecessor, John XXIII.
+[/INST]
+Venerable Paul VI [or Giovanni Battista Enrico Antonio Maria Montini; prompt on "Paul"]
+</s>
+
+<s>
+[INST]
+Paul VI died on the Feast Day celebrating this occurrence, when Jesus appears radiant on a mountain and Elijah and Moses show up for good measure.
+[/INST]
+Transfiguration of Jesus
+</s>
+
+<s>
+[INST]
+Name these compounds whose smallest types can also be called aziri-dinones. Another specific type of this functional group, which is found in cephalosporins, has an N-bonded carbon two carbons away from the carbonyl carbon.
+[/INST]
+lactams [prompt on amides]
+</s>
+
+<s>
+[INST]
+Lactams are not to be confused with lactones, which have this functional group in their cycle. They are created by refluxing a carboxylic acid and an alcohol in a reaction named for Emil Fischer.
+[/INST]
+ester [accept Fischer esterification]
+</s>
+
+<s>
+[INST]
+Name this country, where the Constitution of Cadiz was promulgated in 1812.
+[/INST]
+Kingdom of Spain [or Reino de EspaÃ±a]
+</s>
+
+<s>
+[INST]
+This type of coup common to the 19th-century Hispanic world occurred in 1868 to Isabella II. It involves military officers declaring their public opposition to the reigning government.
+[/INST]
+pronunciamiento
+</s>
+
+<s>
+[INST]
+Name these diagrams which show the "branching-off" of species from their common ancestors. They are used to predict evolutionary relationships between organisms.
+[/INST]
+phylogenies [or phylogenetic trees; or cladograms; or dendrograms]
+</s>
+
+<s>
+[INST]
+One method of determining phylogeny is to use this algorithm, which compares amino acid or nucleotide sequences between two organisms to determine genetic similarities. It was developed by Altschul et. al.
+[/INST]
+BLAST [or the Basic Local Alignment Search Tool]
+</s>
+
+<s>
+[INST]
+A common evolutionary tree of life proposed by Carl Woese divides life into three domains: Archaea, Bacteria, and these organisms, which have nuclei.
+[/INST]
+eukaryotes [or Eukarya; or Eukaryota]
+</s>
+
+<s>
+[INST]
+This impetuous knight dies before the Round Table is founded. In his short lifetime he beheads the Lady of the Lake, gives the Fisher King the Dolorous Stroke, and slays his similarly-named brother.
+[/INST]
+Sir Balin le Savage
+</s>
+
+<s>
+[INST]
+Name this book by Cesare Beccaria that argues for the abolition of the death penalty.
+[/INST]
+On Crimes and Punishments [or Dei Delitti e Delle Pene]
+</s>
+
+<s>
+[INST]
+This Italian criminologist developed largely discredited theories in which he claimed that anomalies he called "stigmata" resulted in higher crime among an atavistic criminal class.
+[/INST]
+Cesare Lombroso
+</s>
+
+<s>
+[INST]
+Lombroso's fascination with human measurements was suspiciously similar to that of this German physician who worked with Johann Spurzheim to found the pseudoscience of phrenology.
+[/INST]
+Franz Joseph Gall
+</s>
+
+<s>
+[INST]
+Name this "stately" object, located near the "sacred river" Alph in Xanadu, whose construction by Kubla Khan was described in a 1797 poem.
+[/INST]
+Kubla(i) Khan's pleasure-dome [or dome of pleasure]
+</s>
+
+<s>
+[INST]
+"Kubla Khan" was written by this English author of Biographia Literaria, who described the travails of an albatross-murdering sailor in "The Rime of the Ancient Mariner".
+[/INST]
+Samuel Taylor Coleridge
+</s>
+
+<s>
+[INST]
+Coleridge's "Dejection: An Ode" describes "the dull sobbing draft, that moans and rakes upon the strings" of one of these instruments. Coleridge described the "one life" which "meets all motion and becomes its soul" in a conversation poem titled for one of them.
+[/INST]
+an Aeolian harp [accept "lute" for "harp"; prompt on partial answer]
+</s>
+
+<s>
+[INST]
+Castigliano's two theorems can be used to derive the deflection equations for many systems under load, but only if the system has this property. A limit named for this term is usually equivalent to the yield strength.
+[/INST]
+linear elasticity [or word forms]
+</s>
+
+<s>
+[INST]
+Below the yield point, a stress-strain curve is linear and has a slope defined by this quantity, which is the stress divided by the strain. It describes a material's resistance to deformation or "stiffness".
+[/INST]
+Young's modulus [or E; or tensile modulus; prompt on "(modulus of) elasticity"]
+</s>
+
+<s>
+[INST]
+Name this scheme for social harmony, under which Catholic, Protestant, and secular segments of the country each had their own complete, vertically integrated set of institutions and did not interact socially.
+[/INST]
+pillar system [or pillarization; or verzuiling]
+</s>
+
+<s>
+[INST]
+The pillar system was the principal fact of pre-World War II society in this country, which also was confronted with evidence of colonialist abuses in Indonesia and Suriname.
+[/INST]
+The Netherlands [or Holland; or Nederland]
+</s>
+
+<s>
+[INST]
+This leader of the "Doleantie" movement in Dutch Protestantism was a Reformed pastor who became prime minister in 1901 and formally implemented the Pillar System.
+[/INST]
+Abraham Kuyper
+</s>
+
+<s>
+[INST]
+Identify this Middle English poem by William Langland in which the narrator searches for Do-Well, Do-Better, and Do-Best, and is aided by the humble title character in a search for Truth.
+[/INST]
+Piers Plowman [accept Visio Willelmi de Piers Plowman or William's Vision of Piers Plowman
+</s>
+
+<s>
+[INST]
+Various elements of Piers Plowman were regularly attributed to this author of The House of Fame and The Parliament of Fowls, whose magnum opus is undoubtedly The Canterbury Tales.
+[/INST]
+Geoffrey Chaucer
+</s>
+
+<s>
+[INST]
+The landing of a V-2 rocket both begins and ends this Thomas Pynchon novel, in which Tyrone Slothrop slowly loses his mind while searching for the S-Gerät and a rocket with serial number 00000.
+[/INST]
+Gravity’s Rainbow
+</s>
+
+<s>
+[INST]
+Willie Keith narrates this 1952 Herman Wouk novel, in which Barney Greenwald defends Stephen Maryk at a court-martial trial involving the latter’s emergency relief of the cowardly Captain Queeg.
+[/INST]
+The Caine Mutiny
+</s>
+
+<s>
+[INST]
+After accidentally blinding a fellow enlisted man in a boxing match, Private Robert E. Lee Prewitt transfers to Schofield barracks in Hawaii, where he suffers “the Treatment” for his refusal to box again, in this James Jones novel.
+[/INST]
+From Here to Eternity
+</s>
+
+<s>
+[INST]
+Name this four-movement suite that ends with a movement depicting a "Festival in Baghdad" and a shipwreck.
+[/INST]
+Scheherazade
+</s>
+
+<s>
+[INST]
+Scheherazade is by this member of the Mighty Handful, whose opera The Tale of Tsar Saltan includes his "Flight of the Bumblebee".
+[/INST]
+Nikolai Rimsky-Korsakov [or Nikolai Andreyevich Rimsky-Korsakov]
+</s>
+
+<s>
+[INST]
+Rimsky-Korsakov's most long-lived music educational work is a treatise on this subject. Richard Strauss edited a popular edition of Berlioz's treatise on this same subject.
+[/INST]
+orchestration [or instrumentation; or word forms, such as orchestrating]
+</s>
+
+<s>
+[INST]
+Name this genre of painting with monumental and lyrical styles. Its other masters include Zhang Zeduan and, in the U.S., the members of the Hudson River School.
+[/INST]
+landscape painting [or shanshui]
+</s>
+
+<s>
+[INST]
+"China's Mona Lisa" is a domestic landscape showing scenes of daily life "along the river" during this annual spring festival, when tombs are traditionally swept.
+[/INST]
+Qingming Festival [or Ching Ming; prompt on "(Chinese) Memorial Day" or "Ancestors' Day"]
+</s>
+
+<s>
+[INST]
+This 6th-century CE Chinese painter wrote "The Record of the Classification of Old Painters," which contained Six Principles of Chinese Painting that are still influential today.
+[/INST]
+Xie He [or Hsieh Ho]
+</s>
+
+<s>
+[INST]
+Name this Belgian-French composer, the long-term organist at the church of Ste.-Clothilde in Paris, who composed the symphonic poem Le Chasseur maudit and taught Ernest Chausson and Vincent d'Indy.
+[/INST]
+CÃ©sar Franck [or CÃ©sar-Auguste-Jean-Guillaume-Hubert Franck]
+</s>
+
+<s>
+[INST]
+The organ is also prominently featured in this French composer's third symphony, which is sometimes nicknamed the "Organ" He also wrote Danse Macabre and Carnival of the Animals.
+[/INST]
+ANSWER: Camille Saint-SaÃ«ns [or Charles-Camille Saint-SaÃ«ns; or Sannois]
+</s>
+
+<s>
+[INST]
+This other French organist wrote sacred organ works like La nativitÃ© du Seigneur, but his single most famous piece is probably his Quartet for the End of Time.
+[/INST]
+Olivier Messiaen
+</s>
+
+<s>
+[INST]
+Name these curves that, in general, depict the interest rates of similar debt securities for varying maturities.
+[/INST]
+yield curves
+</s>
+
+<s>
+[INST]
+Besides maturity and liquidity risks, bondholders must worry about this phenomenon, whose break- even rate reflects market expectations for it. It is typically measured in terms of annual percentage change in the consumer price index.
+[/INST]
+inflation [or deflation]
+</s>
+
+<s>
+[INST]
+Name this novel, in which a classics professor refers to two absent students as "spooks", which gets misinterpreted as a racial epithet and ruins his career.
+[/INST]
+The Human Stain
+</s>
+
+<s>
+[INST]
+This American-Jewish author of The Human Stain and Exit Ghost wrote of a sexually-frustrated boy venting at his therapist, Dr. Spielvogel, in Portnoy's Complaint.
+[/INST]
+Philip Roth [or Philip Milton Roth]
+</s>
+
+<s>
+[INST]
+Much of The Human Stain is narrated by this character, a fictional novelist who hears about the anti-Vietnam bombing antics of his friend's daughter Merry Levov in American Pastoral.
+[/INST]
+Nathan Zuckerman [accept either]
+</s>
+
+<s>
+[INST]
+Name this supreme sky deity of the Yoruban mythos, who bestowed his 16 sons with crowns establishing their divinity.
+[/INST]
+Olodumare (or Olorun, or Eledumare, or Eleda, or Olofin)
+</s>
+
+<s>
+[INST]
+This practice in SanterÃ­a involves a Padrino blessing the head of the candidate, and placing them in four rituals, including the retrieval of a necklace and reception of the Saints.
+[/INST]
+becoming a priest or Santero/a (accept equivalent answers like initiating clergy)
+</s>
+
+<s>
+[INST]
+Name this edifice upon which "big-character posters" were placed on in 1978. Activists used this edifice to criticize the Gang of Four and promote the "Fifth Modernization", i.e. personal liberties.
+[/INST]
+Democracy Wall [or xi dan min zhu qiang; prompt on "Xidan street"; prompt on "Beijing"]
+</s>
+
+<s>
+[INST]
+The Democracy Wall movement took place in this nation, which imprisoned Liu Xiaobo for writing "Charter 08." This nation was also the site of the Tiananmen Square Massacre.
+[/INST]
+People's Republic of China [or Zhongguo; do NOT accept "Republic of China"]
+</s>
+
+<s>
+[INST]
+The Tiananmen Square massacre occurred while this man was chairman of the CPC Central Military Commission. This "Paramount Leader" of the PRC began free-market economic reforms during his rule.
+[/INST]
+Deng Xiaoping
+</s>
+
+<s>
+[INST]
+Name this classic problem from computer science that asks how its namesake figure can visit every city exactly once and return to the origin.
+[/INST]
+traveling salesman problem [or TSP]
+</s>
+
+<s>
+[INST]
+Using this type of technique to solve the traveling salesman problem yields an approximate runtime of n factorial. This kind of approach tries all permutations of the problem.
+[/INST]
+brute force method [or brute-force approach; or brute-force search; or exhaustive search; or obvious equivalents]
+</s>
+
+<s>
+[INST]
+One can simplify the TSP by assuming that this statement is true, and thus allow it to be solved approximately and tractably by the Christofides algorithm. This mathematical statement holds true for metric spaces.
+[/INST]
+triangle inequality
+</s>
+
+<s>
+[INST]
+Name this poem, which observes a certain group "weeping in the playtime of the others, / in the country of the free."
+[/INST]
+"The Cry of the Children"
+</s>
+
+<s>
+[INST]
+This poet of "A Musical Instrument" and Sonnets from the Portuguese wrote "The Cry of the Children."
+[/INST]
+Elizabeth Barrett Browning (prompt on "Browning")
+</s>
+
+<s>
+[INST]
+Browning also wrote this work, a verse novel detailing the growth and education of the title character after she travels from Italy to England to live with her aunt. Lady Waldemar begs the title character to prevent her cousin Romney from marrying Marian Erle, a lower class girl.
+[/INST]
+Aurora Leigh
+</s>
+
+<s>
+[INST]
+Name this British member of Parliament who is best known for founding a colony in North America to be a home for the poor and those released from debtors' prisons.
+[/INST]
+James Edward Oglethorpe
+</s>
+
+<s>
+[INST]
+Oglethorpe founded the American colony that became this Southern state. Its formation was also intended to protect British colonies from potential invasions coming from nearby Spanish Florida.
+[/INST]
+Georgia
+</s>
+
+<s>
+[INST]
+During the War of Jenkins' Ear, Oglethorpe led British troops against the Spanish in this battle fought in July 1742 on St. Simons Island. Its name refers to the high level of Spanish casualties that reportedly stained the location where this battle was fought.
+[/INST]
+Battle of Bloody Marsh
+</s>
+
+<s>
+[INST]
+The manuscript for this last work of Gerard de Nerval was found in the pockets of his coat when he died. This lucid piece of writing begins "dreams are merely a second life" and contains passages that explain Nerval's descent into madness.
+[/INST]
+Aurelia
+</s>
+
+<s>
+[INST]
+Gerard de Nerval was savagely attacked by this writer, the author of The Clemenceau Case and The Lady of the Camellias, which inspired La Traviata. He is the son of the author The Man in the Iron Mask.
+[/INST]
+Alexandre Dumas, fils
+</s>
+
+<s>
+[INST]
+Many Telugu folks, unlike the Kandlikars, do the Upanayana shortly before this event, which culminates with several mantras ending in "Shubha-mangala-sava-dhan," exchange of garlands, and all- around throwing of rice.
+[/INST]
+wedding [accept getting married or nuptials or equivalents]
+</s>
+
+<s>
+[INST]
+With the Upanayana, Brahmans enter this phase of life in which they spend several years at an Ashram with a Guru, learning all the scriptures. Today this term is more commonly taken to mean the vow of celibacy that Brahmans take with the Upanayana, which doesn't amuse the promiscuous Telugu peoples.
+[/INST]
+Brahmachari [or Brahmacharya]
+</s>
+
+<s>
+[INST]
+Name this Celtic god who avenged Nuada’s death by killing Balor at the second battle of Magh Tuireadh, after which he became the leader of the Tuatha de Danaan.
+[/INST]
+Lugh Lamhfhada [or Lug of the Long Arm; accept Lugus or Lleu Llaw Gyffes]
+</s>
+
+<s>
+[INST]
+Lugh inherited the sword Fragarach, “the Answerer”, from this psychopomp and sea god, his foster father. In another story, this son of the obscure deity Lir tempted Cormac mac Airt with a silver branch.
+[/INST]
+Mannanan mac Lir [accept Manawydan mac Llyr]
+</s>
+
+<s>
+[INST]
+Mannanan’s wife Fand once had an affair with this son of Lugh. This wielder of the Gae Bulg is known for his fearsome battle frenzy, which he used to defend Ulster from the armies of Medb during the Cattle Raid of Cooley.
+[/INST]
+Cuchulainn [or Cuhullin; or Setanta]
+</s>
+
+<s>
+[INST]
+Name this 1958 book which described rampant income disparity in the postwar United States. The author notes that the private, not public sector, is becoming wealthy. Many of the ideas appear in the author’s later book, The New Industrial State.
+[/INST]
+The Affluent Society
+</s>
+
+<s>
+[INST]
+A much earlier book on the “affluent society” in the United States was Theory of the Leisure Class by this thinker, who did his undergraduate work at Carleton College.
+[/INST]
+Thorstein Veblen
+</s>
+
+<s>
+[INST]
+This 1962 Michael Harrington book also described income inequality within the United States. This book is credited with instigating Lyndon Johnson’s War on Poverty and Medicaid programs.
+[/INST]
+The Other America
+</s>
+
+<s>
+[INST]
+Native Son is by this author of the memoir Black Boy and the short story collection Uncle Tom's Children.
+[/INST]
+Richard Nathaniel Wright
+</s>
+
+<s>
+[INST]
+In Native Son, Bigger goes to work for this family. The girl he smothers is their daughter Mary, and it is revealed that the father, Henry, owns the apartment where Bigger's family lives.
+[/INST]
+the Daltons
+</s>
+
+<s>
+[INST]
+Name this founder of the Achaemenid dynasty who began his conquests by revolting against the Median empire.
+[/INST]
+Cyrus the Great (accept Cyrus II or Cyrus the Elder; prompt on "Cyrus")
+</s>
+
+<s>
+[INST]
+Cyrus's namesake cylinder claims that this other ruler had incurred the "fury of the gods" for keeping the Jews in Babylon. Cyrus rectified that issue by crushing this last Babylonian king at the Battle of Opis and sending him into exile in Carmania.
+[/INST]
+Nabonidus (or NabÃ»-na'id, apparently, but who cares)
+</s>
+
+<s>
+[INST]
+Cyrus was less merciful towards Croesus, a king of this kingdom whom he apparently burned on a pyre. Croesus had earlier introduced gold coinage to this Anatolian kingdom.
+[/INST]
+Lydia
+</s>
+
+<s>
+[INST]
+This holder of the chair from 1945-1967 dismissed Cartesian mind/body dualism for advocating a “ghost in the machine” in The Concept of Mind.
+[/INST]
+Gilbert Ryle
+</s>
+
+<s>
+[INST]
+This man who held the chair right after Ryle attempted to tease out a non-constructuralist Kant in The Bounds of Sense. He also wrote “In Defence of a Dogma” with Paul Grice.
+[/INST]
+P F Strawson [or Peter Strawson; or Peter Frederick Strawson]
+</s>
+
+<s>
+[INST]
+In one chapter of Individuals, Strawson compared his “ontological hypothesis” to the theories of this German author of Theodicy and Monadologie. This man also independently discovered calculus.
+[/INST]
+Gottfried Wilhelm Leibniz
+</s>
+
+<s>
+[INST]
+Preston Brooks brutally caned this man on the House floor after he compared slavery to a harlot in his polemical "Crime Against Kansas" speech.
+[/INST]
+Charles Sumner
+</s>
+
+<s>
+[INST]
+This man became an anti-slavery martyr when he was shot by a mob at his printing press in Alton, Ohio.
+[/INST]
+Elijah Lovejoy
+</s>
+
+<s>
+[INST]
+This abolitionist badass protected his house with a cannon, drove a sixty person mob from his newspaper office, and murdered several would-be assassins with his trusty Bowie knife. This cousin of a more famous Kentuckian also served as minister to Russia.
+[/INST]
+Cassius Marcellus Clay (prompt on "Clay")
+</s>
+
+<s>
+[INST]
+On the cursus honorum, or course of offices, men progressed from tribune to this office of financial oversight.
+[/INST]
+quaestor [or quaestores]
+</s>
+
+<s>
+[INST]
+This term described persons from the non-noble equites class who got their families into the senatorial class for the first time, most notably by getting elected consul. Successful people of this type included Sallust and Cicero.
+[/INST]
+novus homo [or new man; or novi homines; accept answers that switch the Latin word order]
+</s>
+
+<s>
+[INST]
+This key documentary source for late Roman history is a book listing every imperial and military office that existed in the Empire around 400 CE. Many of its pages display the painted shields of each military division, a key precursor to medieval heraldry.
+[/INST]
+Notitia Dignitatum
+</s>
+
+<s>
+[INST]
+A fusion between fact and fiction comprises this writer's seven "legendary jazz biographies," But Beautiful. He wrote a biography of John Berger titled Ways of Telling.
+[/INST]
+Geoff Dyer
+</s>
+
+<s>
+[INST]
+This writer compared his style of writing to Thelonius Monk hitting the piano in his essay Jazz Messenger. Lots of his novels begin with characters listening to classical music, like a taxi driver playing Leos Janacek's Sinfonietta at the beginning of his 1Q84.
+[/INST]
+Haruki Murakami [accept names in reverse order]
+</s>
+
+<s>
+[INST]
+Name this crisis brought about after Robert Peel requested a ruler fire some of her ladies-in-waiting and replace them with wives of Tory politicians.
+[/INST]
+Bedchamber Crisis
+</s>
+
+<s>
+[INST]
+The ruler who refused to fire her ladies was this queen and Empress of India, the successor of WIlliam IV, who ruled England from 1837 to 1901.
+[/INST]
+Queen Victoria
+</s>
+
+<s>
+[INST]
+Peel said that the Great Reform Bill was, "a settlement that no friend to the peace and welfare of the country would attempt to disturb," in this document that is widely said to have established the principles of the modern Conservative Party in Great Britain.
+[/INST]
+Tamworth Manifesto
+</s>
+
+<s>
+[INST]
+Name this genre, Haydn's 11th of which is in D major. Mozart produced 27 works in this orchestral genre, and usually performed the solo part in those works himself; modern recordings have been made by Murray Perahia and Alfred Brendel.
+[/INST]
+piano concerto [accept word forms]
+</s>
+
+<s>
+[INST]
+Mozart's Piano Concerto No. 26 in D Major is usually nicknamed for this festive occasion.
+[/INST]
+a coronation [or Krönung; accept Coronation Concerto or Krönungskonzert]
+</s>
+
+<s>
+[INST]
+This composer wrote influential proto-romantic works, including his Piano Concerto in A Minor and Piano Sonata in F-Sharp Minor. He's best-remembered for an E-major trumpet concerto.
+[/INST]
+Johann Nepomuk Hummel
+</s>
+
+<s>
+[INST]
+Sumerian scribes pioneered this writing system, which made imprints in clay tablets with a wedge-tipped stylus. It was used well into the Persian days of Darius.
+[/INST]
+cuneiform
+</s>
+
+<s>
+[INST]
+Sumerians moved this resource with a pole-like device called the shadoof. Later in Mesopotamian history, the Abbasids moved this resource uphill with Archimedes' screw.
+[/INST]
+water [accept rivers or similar answers]
+</s>
+
+<s>
+[INST]
+This archaeologist made a name for himself by discovering the Great Ziggurat and other buildings at Ur, a Sumerian city then thought to be the world's oldest.
+[/INST]
+Sir Leonard Woolley
+</s>
+
+<s>
+[INST]
+Name this secret informant for the reporters Bob Woodward and Carl Bernstein during the Watergate scandal. This figure shares his name with a famous 1972 pornographic film.
+[/INST]
+Deep Throat
+</s>
+
+<s>
+[INST]
+The original Watergate break-in was organized by covert White House agents given this colloquial nickname. This name was given to this group because its original goal was to plug information leaks.
+[/INST]
+White House plumbers
+</s>
+
+<s>
+[INST]
+This special assistant to Richard Nixon was an occasional guess for the identity of Deep Throat. He described “a religious” and “cultural” war going on in the United States during a controversial Republican National Convention keynote address.
+[/INST]
+Patrick “Pat” Buchanan
+</s>
+
+<s>
+[INST]
+This continent was first used by the British for prison colonies such as New South Wales.
+[/INST]
+Australia
+</s>
+
+<s>
+[INST]
+This French penal colony off of the coast of French Guiana was mainly used for prisoners not of French birth. Alfred Dreyfus was imprisoned here.
+[/INST]
+Devil's Island [or Ile du Diable]
+</s>
+
+<s>
+[INST]
+For Londoners, transportation was an alternative to time in this central prison near the Old Bailey, which was burnt during the Gordon Riots.
+[/INST]
+Newgate prison
+</s>
+
+<s>
+[INST]
+Identify this short-lived art movement whose other prominent members included Richard Anuszkiewicz (uh-NOOS-kay-vich) and Bridget Riley. It first gained fame at William Seitz’s 1965 exhibition The Responsive Eye.
+[/INST]
+Op art
+</s>
+
+<s>
+[INST]
+Op art was partly inspired by this artistic technique, which gained popularity in the Baroque with paintings like Petrus Christus’s Portrait of a Carthusian, which depicts a realistic fly sitting on its frame. Its name is French for “deceive the eye”.
+[/INST]
+trompe l’oeil
+</s>
+
+<s>
+[INST]
+Another artist fond of illusions and trickery was this tessellation-loving Dutch printmaker, who depicted an endless staircase in his Ascending and Descending and a geometrically-confusing building in his Relativity.
+[/INST]
+Maurits Cornelis “M.C.” Escher
+</s>
+
+<s>
+[INST]
+This pioneering thinker coined the idea of the "identity crisis" as arising from a failure of the adolescent to attain fidelity and falling prey to role diffusion in books like Childhood and Society.
+[/INST]
+Erik [Homburger] Erikson
+</s>
+
+<s>
+[INST]
+This Canadian developmental psychologist built on Erikson's work by outlining four categories of "identity statuses": diffusion, foreclosure, moratorium, and achievement. He theorized that adolescents attain a mature identity based on the two variables of "crisis" and "commitment."
+[/INST]
+James E. Marcia
+</s>
+
+<s>
+[INST]
+Name this painter, whose approximately 300 genuine paintings include a group portrait of a citizen militia, titled The Night Watch.
+[/INST]
+Rembrandt [or Rembrandt Harmenszoon van Rijn; or Rembrandt Harmenszoon van Rijn]
+</s>
+
+<s>
+[INST]
+This Rembrandt painting is no longer believed to depict a new father-in-law putting a necklace on his daughter, but instead to portray the Biblical couple Isaac and Rebecca.
+[/INST]
+The Jewish Bride [or Het joodse bruidje]
+</s>
+
+<s>
+[INST]
+A giant, wooden example of this kind of interior feature separates an old woman tending a fire, and an old man seated at a table, in Rembrandt's mistitled canvas Philosopher in Meditation.
+[/INST]
+a spiral staircase [or a winding staircase; prompt on "staircase"]
+</s>
+
+<s>
+[INST]
+Henry Moore taught this later English sculptor. Separate half-discs of circles comprise her Two Forms.
+[/INST]
+Barbara Hepworth
+</s>
+
+<s>
+[INST]
+Moore sculpted the bronze Nuclear Energy for this city that features a large bean-shaped Anish Kapoor sculpture called Cloud Gate.
+[/INST]
+Chicago
+</s>
+
+<s>
+[INST]
+This group of Germanic knights, founded during the Third Crusade, launched several crusades against Lithuanian pagans. They were defeated at the first battle of Grunwald, or Tannenberg.
+[/INST]
+Teutonic Knights [or Teutonic Order; or Order of Brothers of the German House of Saint Mary in Jerusalem; or Deutscher Ritter-Orden; do not accept or prompt on "Knights Hospitallers"]
+</s>
+
+<s>
+[INST]
+This English king joined the Teutonic Knights on an anti-Lithuanian crusade after upsetting and replacing Richard II. He ruled during Harry Hotspur's rebellion.
+[/INST]
+Henry IV [or Henry Bolingbroke]
+</s>
+
+<s>
+[INST]
+During the crusade of this number, Pope Eugenius III let Saxons fight a set of Slavic pagans called Wends rather than march to the Holy Land in this crusade. Louis VII of France fought in this crusade.
+[/INST]
+Second Crusade [or 2]
+</s>
+
+<s>
+[INST]
+Name this denomination of Charismatic Christianity that emphasizes the "foursquare gospel" and was spread by William Seymour.
+[/INST]
+Classical Pentecostalism
+</s>
+
+<s>
+[INST]
+William Seymour initiated the Pentecostal movement at this revival meeting on a namesake thoroughfare in Los Angeles.
+[/INST]
+the Azusa Street Revival
+</s>
+
+<s>
+[INST]
+Name this triangular architectural elements that are typically supported by columns and include a flat surface called a tympanum that often contains relief sculptures.
+[/INST]
+pediments
+</s>
+
+<s>
+[INST]
+Pediments depicting the birth of Athena from Zeus’ forehead and the contest between Athena and Poseidon once adorned this temple to Athena on the Acropolis.
+[/INST]
+Parthenon
+</s>
+
+<s>
+[INST]
+This classical Greek sculptor designed the chryselephantine sculpture Athena Parthenos once found in the Parthenon, as well as the Statue of Zeus at Olympia that was a Wonder of the Ancient World.
+[/INST]
+Phidias [or Pheidias]
+</s>
+
+<s>
+[INST]
+Name this novel by Marguerite Yourcenar. The narrator of this novel discusses his reign as the "Age of Gold" and talks at length about his Bithynian lover Antinous.
+[/INST]
+Memoirs of Hadrian (or Memoires d'Hadrien)
+</s>
+
+<s>
+[INST]
+Another novel with a Roman emperor as the protagonist is this Robert Graves work. Written as the biography of Caligula's successor, this novel perpetuates the myth that Livia killed everyone to ensure her own children and grandchildren held all power in Rome.
+[/INST]
+I, Claudius
+</s>
+
+<s>
+[INST]
+Another novel about dudes from Rome is Henryk Sienkiewicz's Quo Vadis, which details the love affair between Marcus Vinicius and this Christian woman, a hostage of Rome.
+[/INST]
+Ligia (or Calina)
+</s>
+
+<s>
+[INST]
+Name this poem about a musician on Lenox Avenue who drones "a drowsy, syncopated tune" before he "slept like a rock or a man that's dead."
+[/INST]
+"The Weary Blues"
+</s>
+
+<s>
+[INST]
+"The Weary Blues" is by this Harlem Renaissance poet who described his soul growing deep in "The Negro Speaks of Rivers."
+[/INST]
+Langston Hughes? [or James Mercer Langston Hughes]
+</s>
+
+<s>
+[INST]
+In this poem, Hughes tells an instructor, "You are whiteÂ—yet a part of me, as I am a part of you. That's American."
+[/INST]
+"Theme for English B"
+</s>
+
+<s>
+[INST]
+Identify this type of sculpture in which the backs of figures are attached to the background.
+[/INST]
+relief sculpture [or relievo or rilievo; or bas-relief; or high-relief; or sunk-relief]
+</s>
+
+<s>
+[INST]
+This artist employed relief sculpture in his "Back" series. This head of the Fauvists also painted Harmony in Red and The Dance.
+[/INST]
+Henri Matisse [or Henri-Emile-Benoit Matisse]
+</s>
+
+<s>
+[INST]
+Some of the finest examples of Roman relief sculpture can be found on this shrine, which was originally located in the Field of Mars outside of Rome. Richard Meier built a museum around this structure, which was commissioned by the Senate in 13 BCE to honor Augustus.
+[/INST]
+Ara Pacis [or Ara Pacis Augustae; or Altar of the Augustan Peace]
+</s>
+
+<s>
+[INST]
+Name this prolific Viennese composer of hundreds of Ã©tudes, contained in collections such as The School of Velocity.
+[/INST]
+Carl Czerny
+</s>
+
+<s>
+[INST]
+Two downward runs of an arpeggiated C7 chord feature in the simplest Transcendental Etude by this pupil of Czerny.
+[/INST]
+Franz Liszt
+</s>
+
+<s>
+[INST]
+An imitation of a violin tuning up represents the ensuing fervor of a Liszt work of this type, called The Dance in the Village Inn. Liszt also composed a C minor Ã©tude that is a variation of one of these works by Anton Diabelli.
+[/INST]
+waltzes (The Dance in the Village Inn is the first Mephisto Waltz)
+</s>
+
+<s>
+[INST]
+Goibniu also created the spear that Lugh used to wound Balor, the leader of this race of giants who fought against the Tuatha de Danaan.
+[/INST]
+Fomorians
+</s>
+
+<s>
+[INST]
+Goibniu was unable to become ruler of Ireland because he would have been a king of this type. These kings are infertile and rule over a wasteland, and Balin turned the Fisher King into one by giving him the Dolorous Stroke.
+[/INST]
+maimed king [or blemished king; accept anything that indicates they are a wounded king]
+</s>
+
+<s>
+[INST]
+In addition to being the subject of the awesome Robert Louis Stevenson short story "A Lodging for the Night," this lovable brawler and church-looter famously asked "where are the snows of yesteryear?" in his "Ballad of Dead Ladies."
+[/INST]
+Francois Villon
+</s>
+
+<s>
+[INST]
+Notable male prostitute and petty larcenist Jean Genet drew on his experiences in prison for several works, including this play in which Lefranc tries to impress Green-Eyes by strangling Maurice.
+[/INST]
+Deathwatch (or Haute Surveillance)
+</s>
+
+<s>
+[INST]
+This man spent a lot of jail time for sexually abusing his servants and writing about orgies, rape, and murder in classics like Juliette, Justine, and 120 Days of Sodom.
+[/INST]
+Donatien Alphonse FranÃ§ois, Marquis de Sade
+</s>
+
+<s>
+[INST]
+Name this cognitive scientist and educational theorist who co-wrote Perceptrons with Marvin Minsky.
+[/INST]
+Seymour [Aubrey] Papert
+</s>
+
+<s>
+[INST]
+Papert was strongly influenced by this thinker's constructivist learning theory. He argued that infants learn by the manipulation of schemata, and created a four-stage theory of cognitive development.
+[/INST]
+Jean Piaget
+</s>
+
+<s>
+[INST]
+Constructivism influenced the Harkness education method, which was developed at this private prep school in New Hampshire, where students sit around oval tables and learn by discussion instead of lecturing.
+[/INST]
+Phillips Exeter Academy [accept PEA]
+</s>
+
+<s>
+[INST]
+Name this inlet of the Arctic Ocean. A canal passing through Lake Onega connects this body of water to the Baltic Sea.
+[/INST]
+White Sea [or Beloye More; or Beloje More]
+</s>
+
+<s>
+[INST]
+This Dvina river city is thirty miles from the White Sea. It was Russia's first west-facing port, and was built around the monastery of Michael.
+[/INST]
+Arkhangelsk
+</s>
+
+<s>
+[INST]
+Name this series of persecutions of homosexual government employees in the 1950s, carried out on the theory that gays were susceptible to communism.
+[/INST]
+Lavender scare [prompt on "Red Scare" or "Second Red Scare"]
+</s>
+
+<s>
+[INST]
+Despite his own possible relationship with Clyde Tolson, this man started the "Sex Deviate" Program as part of the Lavender Scare. This FBI director used COINTELPRO to harass suspected gays and communists.
+[/INST]
+John "J." Edgar Hoover
+</s>
+
+<s>
+[INST]
+This legal counsel helped Senator Joe McCarthy go after homosexuals during a 1954 hearing on subversives in the Army. This man also helped prosecute the Rosenbergs while hiding his own sexuality.
+[/INST]
+Roy Marcus Cohn
+</s>
+
+<s>
+[INST]
+Name this Australian author who was shortlisted for the Booker Prize in 2010 for an “improvisation on the life of Alexis de Tocqueville” titled Parrot and Olivier in America.
+[/INST]
+Peter Philip Carey
+</s>
+
+<s>
+[INST]
+Peter Carey’s Oscar and Lucinda centers on a bet about moving a glass building of this type from Sydney to Bellingen. T.S. Eliot’s play about the death of Thomas Becket is titled for a “murder” in one of these buildings.
+[/INST]
+glass cathedral [accept Murder in the Cathedral]
+</s>
+
+<s>
+[INST]
+Peter Carey’s Jack Maggs is a reworking of this Dickens novel, with Maggs as a parallel to Abel Magwitch.
+[/INST]
+Great Expectations
+</s>
+
+<s>
+[INST]
+Name this philosophical work adapted from some lectures at Princeton, which helped develop the causal theory of reference.
+[/INST]
+Naming and Necessity
+</s>
+
+<s>
+[INST]
+Naming and Necessity is by this analytic philosopher. He's also known for his work on modal logic and Wittgenstein.
+[/INST]
+Saul Kripke
+</s>
+
+<s>
+[INST]
+Identify this thermodynamic law which states that the entropy of an isolated system never decreases.
+[/INST]
+second law of thermodynamics
+</s>
+
+<s>
+[INST]
+In his axiomatic statement of the second law of thermodynamics, reading "In every neighborhood of any state S of an adiabatically enclosed system there are states inaccessible from S," this Greek scientist came up with the concept of adiabatic accessibility.
+[/INST]
+Constantin Caratheodory
+</s>
+
+<s>
+[INST]
+Loschmidt's paradox demonstrates that any process that one tries to explain using the second law of thermodynamics violates this symmetry, meaning that they might not hold true if a certain metaphorical arrow flipped.
+[/INST]
+time-reversal symmetry [or T-symmetry; or time symmetry]
+</s>
+
+<s>
+[INST]
+Name this technology which demodulates a signal after receiving a carrier wave.
+[/INST]
+radio receiver [or radio transmission; or AM radio; or amplitude modulation ratio; or crystal radio]
+</s>
+
+<s>
+[INST]
+This Italian inventor pioneered long-distance radio telegraphy in the early 1900s.
+[/INST]
+Guglielmo Marconi
+</s>
+
+<s>
+[INST]
+This woman used her talents for physics to invent the "frequency-hopping" method, which prevented jamming of Allied radio signals during World War II. She was also a star actress from Austria.
+[/INST]
+Hedy Lamarr [or Eva Maria Kiesler]
+</s>
+
+<s>
+[INST]
+Name this French artist who depicted art critic FÃ©lix FÃ©nÃ©on, the coiner of the term "neo-impressionism", holding a top hat in one hand and a flower in the other in front of a heavily-stippled swirl of colors.
+[/INST]
+Paul Victor Jules Signac
+</s>
+
+<s>
+[INST]
+Paul Signac used this style of small, distinct dots in many of his works. George Seurat, a pioneer of this style, used it for his Sunday Afternoon on the Island of La Grande Jatte.
+[/INST]
+pointillism [or word forms; prompt on "neo-impressionism" or "divisionism"]
+</s>
+
+<s>
+[INST]
+Zoroastrian "burials" are conducted in these structures in order to let vultures eat the flesh of the deceased and thereby prevent the corruption of earth and fire.
+[/INST]
+towers of silence (or dakhma; or cheel ghar)
+</s>
+
+<s>
+[INST]
+Because the Himalayas don't have much soft ground or fuel for cremation, Tibetan monks often "bury" the dead through this practice of cutting them open and leaving them for the birds.
+[/INST]
+sky burial (accept jhator or bya gtor)
+</s>
+
+<s>
+[INST]
+In Hinduism, this god, the mount of Vishnu, feeds exclusively on the flesh of nagas.
+[/INST]
+Garuda
+</s>
+
+<s>
+[INST]
+This apostle's authorship of Ephesians was first disputed by Erasmus. Scholars are more sure that he wrote Galatians, 1 and 2 Corinthians, and Romans.
+[/INST]
+Paul the Apostle [or Saul of Tarsus]
+</s>
+
+<s>
+[INST]
+Chapter 5, Verse 22 of Ephesians notoriously urges wives to perform this action, creating a situation analogous to Christ being the head of the church.
+[/INST]
+submit to husbands [or answers indicating that wives should be subservient to their husbands; the full sentence in KJV is "Wives, submit yourselves unto your own husbands, as unto the Lord"]
+</s>
+
+<s>
+[INST]
+Name this condition that is represented by points that lie between the bubble-point temperature and dew-point temperature curves on a Pxy diagram.
+[/INST]
+vapor-liquid equilibrium [or VL; or VLE; prompt on "equilibrium" or "phase equilibrium"; accept descriptive answers that suggest "liquid and gas" or "liquid and vapor" are both present]
+</s>
+
+<s>
+[INST]
+Phase equilibrium behavior can be modeled using fugacities and activities of individual components using the gamma-phi method, or a different method that only uses one of these relations. For an ideal gas, one of these relations gives the molar volume as a product of R times T times one over P.
+[/INST]
+equations of state [or word forms; accept EOS; anti-prompt, i.e. "Can you be less specific" on "ideal gas law"]
+</s>
+
+<s>
+[INST]
+This man names a method of calculating activities of mixtures, in which the excess Gibbs energy is related to a power series of the mole fractions. He was a meteorologist who dabbled in thermodynamics.
+[/INST]
+Max Margules
+</s>
+
+<s>
+[INST]
+Name this novel whose characters include Shiva of the Knees and Parvati-the-Witch.
+[/INST]
+Midnight’s Children
+</s>
+
+<s>
+[INST]
+Midnight’s Children is titled for the exact time that Pakistan was split off from this country, Salman Rushdie’s homeland.
+[/INST]
+Republic of India [or Bharat Ganrajya]
+</s>
+
+<s>
+[INST]
+In Midnight’s Children, this man, whose wife Vanita is impregnated by William Methwold, is an impoverished accordionist and singer who raises Shiva. He shares his name with a nursery rhyme character.
+[/INST]
+Wee Willie Winkie [accept either underlined name]
+</s>
+
+<s>
+[INST]
+Name this man who led his county from 1930 to 1945, before a brief return in the 1950’s. He represented the end of the old café com leite politics and as a dictator grew to oppose the fascist Integralism movement.
+[/INST]
+Getulio Vargas
+</s>
+
+<s>
+[INST]
+Vargas and his Estado Novo government ruled this South American country. His government should not be confused with the Estado Novo in Portugal, which also used to rule this nation.
+[/INST]
+Federative Republic of Brazil
+</s>
+
+<s>
+[INST]
+Name this 1957 play which ends with Goldberg and McCann taking Stanley Webber away from a boardinghouse in the wake of the title event.
+[/INST]
+The Birthday Party
+</s>
+
+<s>
+[INST]
+The Birthday Party is one of the "comedies of menace" written by this British playwright of The Homecoming and The Dumb Waiter.
+[/INST]
+Harold Pinter
+</s>
+
+<s>
+[INST]
+Pinter's extramarital affair with Joan Bakewell inspired this play about the tangled history of two married couples, which is perhaps most notable for its use of reverse chronology.
+[/INST]
+Betrayal
+</s>
+
+<s>
+[INST]
+Identify this oil painting in which a bearded man in red extends his arms around a dirt-chalked young man in rags, who kneels displaying his torn shoes to the viewer. In the background, two men and one woman, all in differing amounts of light, watch the scene.
+[/INST]
+The Return of the Prodigal Son
+</s>
+
+<s>
+[INST]
+The Return of the Prodigal Son was painted by this Dutch master, also known for The Night Watch.
+[/INST]
+Rembrandt van Rijn
+</s>
+
+<s>
+[INST]
+In this Biblical painting by Rembrandt, a turban-clad king turns around in shock to see a hand, emerging from black smoke, writing glowing Hebrew letters on the wall behind him.
+[/INST]
+Belshazzar's Feast
+</s>
+
+<s>
+[INST]
+Name this pair of veins which empty deoxygenated blood into the right side of the heart, from both below and above.
+[/INST]
+Vena cavae [or superior and inferior vena cavae]
+</s>
+
+<s>
+[INST]
+This other blood vessel emerges from the left ventricle, ascends, then descends again after reaching a hairpin turn at its namesake arch. It is the largest artery in the body.
+[/INST]
+aorta
+</s>
+
+<s>
+[INST]
+The aortic arch is formed during embryonic development from the sixth arch described by this adjective. This adjective also describes the "slits" found in some chordates that are homologous to gills, evidence of convergent evolution.
+[/INST]
+pharyngeal arches [or pharyngeal slits]
+</s>
+
+<s>
+[INST]
+Identify these policies in part motivated by the Singer-Prebisch thesis. They were primarily trade policies that motivated by arguments from development economics.
+[/INST]
+ISI [or import substitution industrialization]
+</s>
+
+<s>
+[INST]
+The Singer-Prebisch thesis suggests that a dependence on the export of these things occurs side-by-side with a decline in terms of trade. Marxian analysis describes a "fetishism" of these things in which they are presumed to have an inherent value that does not reflect the labor needed to produce them.
+[/INST]
+primary commodities [or word forms]
+</s>
+
+<s>
+[INST]
+ ISI policies were popular in Latin American countries in the aftermath of this global event. Greece and Turkey received extensive aid after this event via the Marshall Plan, which sought to limit communist expansion in its aftermath.
+[/INST]
+World War II [or the Second World War; or obvious equivalents]
+</s>
+
+<s>
+[INST]
+Name this form of heat transfer facilitated by fluid motion driven by an external source, such as a fan, a pump, or in the case of Minnesota, the wind.
+[/INST]
+forced convection [prompt on “convection,” do NOT accept or prompt on “free convection” or “natural convection”]
+</s>
+
+<s>
+[INST]
+The extent to which convection is forced or free can be determined by the dimensionless number named for this scientist. This scientist also names the statement that the buoyant force on an object partially immersed in a fluid is equal to the weight of the fluid displaced by the object.
+[/INST]
+Archimedes of Syracuse
+</s>
+
+<s>
+[INST]
+Depending on the values of system parameters, convection also competes with this heat transfer mechanism, which is the dominant mechanism present in heat transfer between solids.
+[/INST]
+conduction
+</s>
+
+<s>
+[INST]
+Name this genre, which with tragedy and satyr plays made up the three major dramatic forms in Ancient Greece. Its "old" period, as exemplified by the plays of Aristophanes, is the best preserved.
+[/INST]
+Athenian comedy
+</s>
+
+<s>
+[INST]
+Strepsiades enrolls his son Pheidippides in the Thinkery so that he might learn enough to talk their way out of debt in this Socrates-mocking play by Aristophanes.
+[/INST]
+The Clouds [or Nephelai]
+</s>
+
+<s>
+[INST]
+The best surviving examples of Greek New Comedy are plays like Perikeiromene and Dyskolos, or The Grouch, which were written by this Athenian playwright, the rival of Philemon.
+[/INST]
+Menander [or Menandros]
+</s>
+
+<s>
+[INST]
+Name this poet who described life "overflowing today, / spring rain shattering itself like glass". His most famous poem opens "February. Take ink and weep".
+[/INST]
+Boris Pasternak
+</s>
+
+<s>
+[INST]
+Pasternak is better known for this novel, in which the title physician falls in love with the nurse Lara during the outbreak of the Russian Revolution.
+[/INST]
+Doctor Zhivago
+</s>
+
+<s>
+[INST]
+Pasternak dedicated a poem to this Soviet author of Poem Without a Hero, who wrote poems about the arrest of her son and husband in her collection Requiem.
+[/INST]
+Anna Akhmatova [or Anna Andreevna Gorenko]
+</s>
+
+<s>
+[INST]
+Name this point which is located at the apex of the "saturation dome" on a PV diagram. Reduced temperature equals the system's temperature divided by the temperature of this point.
+[/INST]
+critical point
+</s>
+
+<s>
+[INST]
+Beyond the critical point, the enthalpy of this phase transition goes to 0, because it is no longer possible to distinguish between liquid and gas.
+[/INST]
+vaporization [prompt on evaporation; prompt on boiling]
+</s>
+
+<s>
+[INST]
+This class of equations of state will have three solutions when the temperature is less than the critical point, but only one solution above the critical point. The van der Waals and Redlich-Kwong equations of state have this functional form.
+[/INST]
+cubic equations of state
+</s>
+
+<s>
+[INST]
+Name this book that discusses thought experiments like the "dilemma of the commuter" and the "teletransporter" and discusses the mere addition paradox, which posits that it is better to have a large population of somewhat happy people than to have a smaller group of people, who are generally happier.
+[/INST]
+Reasons and Persons
+</s>
+
+<s>
+[INST]
+Reasons and Persons is by this British analytic philosopher who argued against the "repugnant conclusion" of utilitarianism.
+[/INST]
+Derek Parfit
+</s>
+
+<s>
+[INST]
+Parfit's most recent book, On What Matters, transmutes three different kinds of ethical theories into his own "triple theory." One philosopher whose work was incorporated was this Englishman who wrote De Corpore and Leviathan.
+[/INST]
+Thomas Hobbes
+</s>
+
+<s>
+[INST]
+The valence bond model fails to predict that this diatomic gas is paramagnetic because it has unpaired electrons in antibonding pi orbitals. This gas is a reactant in most combustion reactions.
+[/INST]
+oxygen gas [or O2; or diatomic oxygen]
+</s>
+
+<s>
+[INST]
+The model cannot explain why water has this bond angle, rather than 109.5 degrees. Give your answer in degrees, rounded to the nearest tenth.
+[/INST]
+104.5 degrees
+</s>
+
+<s>
+[INST]
+Valence bond theory can't explain why ions like tetra-ammine copper II have sp2d hybridization and, therefore, have this molecular geometry, rather than tetrahedral. Cisplatin and xenon tetrafluoride have this geometry.
+[/INST]
+square planar [prompt on partial answer]
+</s>
+
+<s>
+[INST]
+Identify this Russian painter who did much of his groundbreaking work in Munich, where he split with the NKV to found his own movement after the jury for its third exhibition rejected his abstract painting Composition V.
+[/INST]
+Wassily Wassilyevich Kandinsky
+</s>
+
+<s>
+[INST]
+Kandinsky and several associates, including August Macke and Gabriele Münter, founded this radical Expressionist movement, named for a Kandinsky painting of a man on horseback.
+[/INST]
+The Blue Rider [or Der Blaue Reiter]
+</s>
+
+<s>
+[INST]
+Name this war, ended by the Treaty of Aix-la-Chapelle, in which many European powers fought over the question of Hapsburg ruler Maria Theresa’s right to the throne of a country which would later be ruled by Joseph II.
+[/INST]
+War of Austrian Succession [or King George’s War]
+</s>
+
+<s>
+[INST]
+This sub-conflict of the War of the Austrian Succession began after Spanish coast guards boarded a British merchant ship and physically attacked a captain. The British and Spanish mounted unsuccessful invasions of American colonies during this war.
+[/INST]
+War of Jenkins’ Ear [or Guerra del Asiento]
+</s>
+
+<s>
+[INST]
+In this 1745 battle, Maurice de Saxe led the French army to a major victory, allowing the French to take the Austrian Netherlands. An 841 battle with the same name was a victory for Charles the Bald and Louis the German over Lothair.
+[/INST]
+Battle of Fontenoy [or Battle of Fontenoy-en-Puisaye]
+</s>
+
+<s>
+[INST]
+Name this tone poem which depicts the veneration of either Satan or the evil god Chernobog at a witches' sabbath.
+[/INST]
+Night on Bald Mountain [or St. John's Night on the Bare Mountain; or Ivanova noch' na lysoy gore]
+</s>
+
+<s>
+[INST]
+Night on Bald Mountain - or at least, its original version - was written by this Russian member of the Mighty Five who composed Pictures at an Exhibition.
+[/INST]
+Modest Petrovich Mussorgsky
+</s>
+
+<s>
+[INST]
+Most of Mussorgsky's instrumental music is programmatic, in contrast to this kind of music, which exists simply for its own sake with no external program or message.
+[/INST]
+absolute music [or abstract music]
+</s>
+
+<s>
+[INST]
+Name this 3rd and 4th century religious scholar who served as secretary to Pope Damasus I and set up a monastery in Bethlehem.
+[/INST]
+St. Jerome
+</s>
+
+<s>
+[INST]
+Damasus I commissioned Jerome to translate and assemble this Latin version of the Bible
+[/INST]
+ the Vulgate [or the versio vulgata]
+</s>
+
+<s>
+[INST]
+Durer's St. Jerome in his Study depicts a gourd hanging above Jerome's head, a reference to a famous debate over what type of plant quickly sprouted above the head of the namesake prophet of this Old Testament book.
+[/INST]
+Book of Jonah
+</s>
+
+<s>
+[INST]
+Name this Florentine author who expressed his love for Beatrice Portinari in La Vita Nuova and was guided through Hell by Virgil in Inferno, the first part of his Divine Comedy.
+[/INST]
+Dante Alighieri [accept either underlined portion; accept Durante degli Alighieri]
+</s>
+
+<s>
+[INST]
+One of Dante’s best friends was Guido, the poet of “Donna me prega”, who was a member of this family. Dante depicted Guido’s father, an atheist merchant, in the sixth circle of Hell.
+[/INST]
+Cavalcanti family [accept Guido Cavalcanti or Cavalcante de’ Cavalcanti]
+</s>
+
+<s>
+[INST]
+Guido Cavalcanti also appears in a story narrated by Elissa in a collection by this author of On Famous Women, Teseida, and Filostrato.
+[/INST]
+Giovanni Boccaccio
+</s>
+
+<s>
+[INST]
+This Iranian author of Three Drops of Blood and Mister Bow-Wow wrote The Blind Owl, a novel about a nightmare-plagued pen-case painter, which he published in Bombay to evade the Shah's censorship.
+[/INST]
+Sadegh Hedayat [or Sadeq Hedayat]
+</s>
+
+<s>
+[INST]
+The 2010 Golden Owl prize went to this Dutch author's The Foxes Come at Night. This perennial Nobel candidate debuted with Philip and the Others and returned after a 17-year novel-writing hiatus with Rituals.
+[/INST]
+[Cornelis Johannes Jacobus Maria] Cees Nooteboom
+</s>
+
+<s>
+[INST]
+Give this term that Dennett introduced in Elbow Room to describe thought experiments designed to elicit instinctual thought processes.
+[/INST]
+intuition pumps
+</s>
+
+<s>
+[INST]
+Daniel Dennett applied the term "boom crutch" to a thought experiment by John Searle that attempts to refute computationalism, in which a man uses books to translate statements in this language.
+[/INST]
+Chinese
+</s>
+
+<s>
+[INST]
+Many of Dennett's intuition pumps, such as "The Wine-Tasting Machine", attempt to disprove the existence of these entities, which are isolated incidences of subjective, conscious experience, such as how cauliflower tastes.
+[/INST]
+qualia [or quale]
+</s>
+
+<s>
+[INST]
+This quantity signifies what percentage of a reaction actually goes to completion, or in other words, how much of the product you got compared to how much you should have gotten.
+[/INST]
+ percent yield
+</s>
+
+<s>
+[INST]
+In organic chemistry, this step must be taken after a reaction to purify and isolate its products. This process encompasses things like adding acid to neutralize a product anion, evaporating solvents, and separating mixtures into organic and aqueous layers.
+[/INST]
+work-up
+</s>
+
+<s>
+[INST]
+This arm of pharmaceutical chemistry concerns itself with optimizing the synthesis of drugs such that they are safe and green, in contrast to medicinal chemistry.
+[/INST]
+process chemistry
+</s>
+
+<s>
+[INST]
+Name this contemporary novelist who wrote of an Andalusian author who journeys to Egypt in search of treasure in his 1988 novel The Alchemist.
+[/INST]
+Paulo Coelho [“ko-EY-lyoh”, though a phonetic English pronunciation is fine too]
+</s>
+
+<s>
+[INST]
+Fellow Brazilian author Joaquim Machado de Assis wrote a fictional work in this genre narrated by the deceased Bras Cubas. Mark Twain’s work in this genre was published in 2013, 103 years after his death.
+[/INST]
+an autobiography [or memoir; accept The Posthumous Memoirs of Bras Cubas or Memórias Póstumas de Brás Cubas]
+</s>
+
+<s>
+[INST]
+Identify this July 6, 1917 battle which saw little actual fighting, as the garrison of 300 Ottoman troops in a Red Sea port town surrendered to a much larger force.
+[/INST]
+Battle of Aqaba
+</s>
+
+<s>
+[INST]
+Lawrence paid Auda abu Tayi, a leader of these nomadic groups, ten thousand pounds to secure their help in the campaign against Aqaba. These nomads were encouraged to settle by ibn Saud.
+[/INST]
+Bedouins [or Beduin or Badawai or Badw]
+</s>
+
+<s>
+[INST]
+Identify this value multiplied by the sine of the angle and set equal to the order times wavelength as the condition for the existence of a bright fringe.
+[/INST]
+double slit separation [or obvious equivalents, such as the distance between the two slits; prompt on small d]
+</s>
+
+<s>
+[INST]
+The double slit experiment was performed by this English scientist.
+[/INST]
+Thomas Young
+</s>
+
+<s>
+[INST]
+Claus JÃ¶nsson was the first physicist to perform the double-slit experiment with these particles instead of photons, a now-common setup. A thought experiment due to Feynman illustrates wave-particle duality by considering passing individual ones of these particles through the double-slit, which will create a diffraction pattern because each one passes through both slits, despite the fact that, classically, each one can only pass through one slit.
+[/INST]
+electrons
+</s>
+
+<s>
+[INST]
+Name this pioneer of "social sculpture" who preached that creativity is not unique to artists, and is best known for the phrase "everybody is an artist." He was a long-time member of the Fluxus group.
+[/INST]
+Joseph Beuys
+</s>
+
+<s>
+[INST]
+The manifesto for the Fluxus movement was written by this Lithuanian-American artist. His Diagram of the Historical Development of Fluxus is a painstakingly detailed timeline of the origins of the movement.
+[/INST]
+George Maciunas [or Jugris Maciuans]
+</s>
+
+<s>
+[INST]
+Maciunas was considered the "father" of this Lower Manhattan neighborhood, where he established a communal space filled with Fluxhouses. This neighborhood is well known for its cast-iron architecture, and is not to be confused with a London neighborhood of the same name.
+[/INST]
+SoHo [or South of Houston street]
+</s>
+
+<s>
+[INST]
+Name this 1988 military operation in which American forces attacked oil platforms and various ships in the Persian Gulf.
+[/INST]
+Operation Praying Mantis
+</s>
+
+<s>
+[INST]
+Operation Praying Mantis occurred during this war. The western combatant in this war authorized "Chemical" Ali to conduct a genocide against its Kurdish population.
+[/INST]
+Iran-Iraq War [accept in reverse order; accept Tanker war]
+</s>
+
+<s>
+[INST]
+The Kurdish genocide was codenamed the "campaign" of this eighth sura of the Quran, whose English translation is roughly "the spoils of war."
+[/INST]
+al-Anfal [accept al-Anfal campaign or Operation Anfal]
+</s>
+
+<s>
+[INST]
+Name this poem written as a diatribe against marriage and women. It includes the famous line "Sed quis custodiet ipsos custodes?", or "But who will guard the guards themselves?"
+[/INST]
+Satire VI
+</s>
+
+<s>
+[INST]
+This Roman poet included detailed discussion of the mores and traditions of Roman society in his Satires.
+[/INST]
+Juvenal
+</s>
+
+<s>
+[INST]
+Juvenal's fragmentary last Satire describes the certain advantages that people with this occupation had over normal citizens. Plautus created one of these people who abducts Philocomasium for himself and inspired a famous archetype in Commedia dell'arte.
+[/INST]
+Roman soldiers (or miles or milites)
+</s>
+
+<s>
+[INST]
+Name these arrays of numbers that feature rows and columns.
+[/INST]
+matrix [or matrices]
+</s>
+
+<s>
+[INST]
+This term is the sum of the elements on the main diagonal of a square matrix
+[/INST]
+trace
+</s>
+
+<s>
+[INST]
+A formula named for this German mathematician relates the time derivative of the determinate of a matrix with the trace of its adjoint. This man also names a matrix consisting of the first order partial derivatives of a function.
+[/INST]
+Carl Gustav Jacob Jacobi
+</s>
+
+<s>
+[INST]
+The line "Rats! They fought the dogs and killed the cats!" opens the second stanza of a poem about this character, who is refused payment for his musical rat-removal services and, in revenge, abducts a crowd of children from a certain German town.
+[/INST]
+the Pied Piper of Hamelin [or the Pied Piper of Hamelin]
+</s>
+
+<s>
+[INST]
+A line from King Lear titles this poem, whose protagonist may be the title character of a chanson de geste. It ends with the "dauntless" title character blowing his "slug-horn".
+[/INST]
+"Childe Roland to the Dark Tower Came"
+</s>
+
+<s>
+[INST]
+This poem tells of a place "where the quiet-coloured end of evening smiles" on "the site once of a city great and gay", of which only a "single little turret" remains.
+[/INST]
+"Love Among the Ruins"
+</s>
+
+<s>
+[INST]
+Written in honor of Alessandro Manzoni, this sacred choral work uses the pounding of the timpani and bass drum to depict thunder in its "Dies Irae" movement.
+[/INST]
+Giuseppe Verdi's requiem (prompt on "requiem")
+</s>
+
+<s>
+[INST]
+Grigorio Allegri is most famous for this composition, a setting of Psalm 51 that is commonly performed during the Tenebrae service during holy week. Two alternating choirs generally sing this piece in falso bordone style.
+[/INST]
+Miserere, mei Deus
+</s>
+
+<s>
+[INST]
+In a story retold at the mid-autumn festival of Tet Trung Thu, the trickster boy Chu Cuoi is taken to this place after his wife pours garbage on a magic banyan tree and the tree floats off to this place with him hanging onto it.
+[/INST]
+the moon
+</s>
+
+<s>
+[INST]
+Name this play in which Atossa awaits the return of her son from battle and summons her the ghost of her dead husband from the underworld, who condemns her son for his hubris in losing the Battle of Salamis.
+[/INST]
+The Persians
+</s>
+
+<s>
+[INST]
+The Persians is a play by this ancient Greek playwright of the Oresteia.
+[/INST]
+Aeschylus
+</s>
+
+<s>
+[INST]
+In this play of the Oresteia, Orestes is prosecuted for the murder of Clytemnestra after being chased relentlessly by the Furies. Orestes is eventually acquitted when Athena casts the final vote to set him free.
+[/INST]
+The Eumenides (or The Kindly Ones)
+</s>
+
+<s>
+[INST]
+ Identify this 1992 incident in which a woman, during an a capella performance of Bob Marley's "War," tore a photo of John Paul II in front of a studio audience before saying "fight the real enemy."
+[/INST]
+Sinead (shi NAID) O'Connor's performance as an Saturday Night Live musical guest [or Sinead O'Connor on SNL; or Sinead O'Connor's protest of Catholic sexual abuse; or obvious equivalents mentioning Sinead O'Connor]
+</s>
+
+<s>
+[INST]
+This woman parodied O'Connor by tearing up a photograph of Joey Buttafuoco during an SNL performance of her song "Bad Girl." Other famous songs by her include "Into the Groove" and "Like a Virgin."
+[/INST]
+Madonna [or Madonna Louise Ciccone]
+</s>
+
+<s>
+[INST]
+O'Connor herself is best known for her performance of this song composed by Prince, which begins "It's been seven hours and fifteen days, since you took your love away."
+[/INST]
+"Nothing Compares to You" [styled properly, fuck that noise]
+</s>
+
+<s>
+[INST]
+Natural gas in Eastern Europe is doled out by this massive Russian company. The world's leading gas producer, it is currently headed by Alexei Miller.
+[/INST]
+OAO Gazprom (accept OAO Gazprom)
+</s>
+
+<s>
+[INST]
+Russia slashed gas prices to this country after it nixed a treaty with the EU. Led by Viktor Yanukovych, massive protests have rocked the country since December.
+[/INST]
+Ukraine
+</s>
+
+<s>
+[INST]
+This crazy nationalistic and anti-Semitic party is at the center of the protests. Gaining more than 10 percent of the vote in 2012 elections, they combined with the Fatherland and UDAR parties to form the parliamentary opposition.
+[/INST]
+Svoboda (accept Freedom)
+</s>
+
+<s>
+[INST]
+Name this penultimate Claude Debussy étude, which is filled with grace notes containing its namesake entities.
+[/INST]
+"Pour les arpèges composés" [or "For Composite Arpeggios"; accept any literal translation, including ones using the plural form "Arpeggii"]
+</s>
+
+<s>
+[INST]
+This French composer included many arpeggios in his incredibly difficult "Étude en forme de valse." He followed Liszt's innovations by using thematic transformation in pieces that combine four movements into two, like his fourth piano concerto and his third symphony.
+[/INST]
+[Charles] Camille Saint-Saëns
+</s>
+
+<s>
+[INST]
+Name this two-part collection of poems, the first of which begins "Tree arising! O pure ascendence!"
+[/INST]
+Sonnets to Orpheus (or Die Sonette an Orpheus, prompt on "poems by Rainer Maria Rilke," I guess)
+</s>
+
+<s>
+[INST]
+This shorter poem by the same author as Sonnets to Orpheus describes a missing head "with eyes like ripening fruit" and ends by stating "You must change your life."
+[/INST]
+"Archaic Torso of Apollo" (or "ArchaÃ¯scher Torso Apollos," accept reasonable translations like "Torso of an Archaic Apollo")
+</s>
+
+<s>
+[INST]
+This German poet of collections like The Book of Hours, The Book of Images, and the Duino Elegies wrote Sonnets to Orpheus and "Archaic Torso of Apollo."
+[/INST]
+Rainer Maria Rilke (or RenÃ© Karl Wilhelm Johann Josef Maria Rilke)
+</s>
+
+<s>
+[INST]
+Identify this collection of German states allied with Napoleon Bonaparte, which lasted from 1806 to 1813. It was dissolved after Napoleon's defeat at the Battle of Leipzig.
+[/INST]
+Confederation of the Rhine
+</s>
+
+<s>
+[INST]
+The creation of the Confederation of the Rhine was prompted by Napoleon's victory at this battle in Moravia, at which he crushed the Third Coalition.
+[/INST]
+Battle of Austerlitz
+</s>
+
+<s>
+[INST]
+The primary states of the Confederation included Bavaria and this one, which was ruled by the 6-foot 11-inch Frederick I. It was combined with Baden to form a modern state of Germany with capital at Stuttgart.
+[/INST]
+Wurttemberg
+</s>
+
+<s>
+[INST]
+Name this Czech religious reformer who condemned Antipope John XXIII's sale of indulgences. His namesake wars began after he was burned at the stake for heresy.
+[/INST]
+Jan Hus
+</s>
+
+<s>
+[INST]
+Jan Hus was executed at this ecumenical council, which was organized by Emperor Sigismund and ended the Western Schism by electing Pope Martin V.
+[/INST]
+Council of Constance
+</s>
+
+<s>
+[INST]
+Name this early Enlightenment text framed around the discussions of a marquise and philosopher during six evenings of stargazing. This book introduced scientific ideas to a popular audience, particularly women.
+[/INST]
+Conversations on the Plurality of Worlds (or Entretiens sur la pluralitÃ© des mondes)
+</s>
+
+<s>
+[INST]
+Conversations on the Plurality of Worlds popularized the Copernican view that this celestial body is at the center of our planetary system, in contrast the erroneous geocentric view.
+[/INST]
+the Sun (accept Helios; accept Sol; accept the names of sun gods such as Tonatiuh; accept heliocentrism or word forms)
+</s>
+
+<s>
+[INST]
+Name this god of war who reigns over Mount Sumeru. A large statue of him is featured at the Todai-ji in Nara.
+[/INST]
+Bishamonten [or Tamonten or Vaiśravaṇa]
+</s>
+
+<s>
+[INST]
+The god of war Bishamon was sometimes conflated with Hachiman, the god of war from Shinto. Hachiman was one of these kinds of deities that protected a particular place or person.
+[/INST]
+tutelary deity
+</s>
+
+<s>
+[INST]
+Bishamon is a member of a group of this many gods of fortune. The Pleiades were comprised of this many sisters.
+[/INST]
+Seven Gods of Fortune [or Seven Lucky Gods or other reasonable equivalents; accept Shichi Fukujin]
+</s>
+
+<s>
+[INST]
+Name this group symbolized by a blue eagle and established by Franklin Roosevelt in 1933 to bring together industries to follow "fair labor practices." The act that created this group was ruled unconstitutional in the 1935 Schechter Poultry case.
+[/INST]
+NRA [or National Recovery Administration; prompt on "NIRA" or "National Industrial Recovery Act"]
+</s>
+
+<s>
+[INST]
+The NRA was part of this broad FDR relief program that was meant to alleviate the devastation caused by the Great Depression
+[/INST]
+the New Deal [prompt on "alphabet soup"]
+</s>
+
+<s>
+[INST]
+This curmudgeon served as Secretary of the Interior for the entire FDR administration. Also the director of the Public Works Administration, he was a civil rights supporter and backed African-American singer Marian Anderson in her fight with the Daughters of the American Revolution.
+[/INST]
+Harold LeClair Ickes
+</s>
+
+<s>
+[INST]
+Name this leader of the independent republic of Gran Colombia. He is known as the “Liberator” of much of South America.
+[/INST]
+Simon Bolivar [do not accept “Bolivia”]
+</s>
+
+<s>
+[INST]
+This aide to Bolivar won the Battle of Ayacucho against the Royalist forces. He previously won the Battle of Pichincha and was later assassinated in June 1830.
+[/INST]
+Antonio Jose de Sucre y Alcala
+</s>
+
+<s>
+[INST]
+During Bolivar’s 1810’s Admirable Campaign to liberate South America, he issued this 1813 order that allowed for violence to be committed against Spanish civilians who were not supporting independence.
+[/INST]
+Decree of War to the Death [or Decreto de Guerra a Muerte]
+</s>
+
+<s>
+[INST]
+Name these compounds that are also used to alkylate carbonyls in a reaction analogous to the Michael addition discovered by Gilbert Stork. They are produced spontaneously by the alpha-deprotonation of an iminium ("ih-min-ee-um") ion.
+[/INST]
+enamines
+</s>
+
+<s>
+[INST]
+Enamines undergo this process to convert to imines and vice versa. The mechanism is exactly analogous to another case in which this process causes an interconversion between ketones and enols.
+[/INST]
+tautomerization (accept word forms like tautomerism)
+</s>
+
+<s>
+[INST]
+2-hydroxypropene converts via tautomerization to this simplest ketone, whose common uses include nail polish remover and as a solvent used to clean lab glassware.
+[/INST]
+acetone (or propanone)
+</s>
+
+<s>
+[INST]
+Name this Athenian legal reformer who undid the harsh law code of Draco in the 590s BCE.
+[/INST]
+Solon
+</s>
+
+<s>
+[INST]
+Solon repealed laws which reduced people to this status for excessive debt. Many of these people were kidnapped in war or traded from Thrace to work in households.
+[/INST]
+debt slavery [or slaves; or bondage; or bondsmen; or douloi]
+</s>
+
+<s>
+[INST]
+Solon allegedly advised this king of Lydia not to evaluate any man as truly happy until after death. This man was burned alive after his army crossed the Halys river and lost to Persia.
+[/INST]
+Croesus [or Kroisos]
+</s>
+
+<s>
+[INST]
+Name this Japanese appropriation artist who, in his frequent cross-dressing endeavors, has inserted himself into the iconic scene of Marilyn Monroe with her skirt billowing up.
+[/INST]
+Yasumasa Morimura
+</s>
+
+<s>
+[INST]
+Morimura wears two hats and has an extra pair of hands in Dublonnage (Marcel), which is a reference to Marcel Duchamp cross-dressing as this person for a photograph taken by Man Ray.
+[/INST]
+Rrose Selavy
+</s>
+
+<s>
+[INST]
+Morimura's Looking Back (Mirror) is a remake of this painting, which was purchased for only 2 guilders and 30 cents by Arnoldus Andries des Tombe in 1881. A 1994 restoration revealed that its dark black background was originally a deep green, but the organic pigments faded with time.
+[/INST]
+Girl with a Pearl Earring [by Johannes Vermeer]
+</s>
+
+<s>
+[INST]
+Identify these DNA regions containing, or linked to, genes underlying polygenic phenotypes like skin color. These regions can be "mapped" to determine how many of them shape the phenotype of interest.
+[/INST]
+quantitative trait loci [or quantitative trait locus; or QTL]
+</s>
+
+<s>
+[INST]
+Each gene contributing to a polygenic phenotype assorts independently and has one allele per gamete, in accordance with this first of Mendel's laws.
+[/INST]
+law of segregation
+</s>
+
+<s>
+[INST]
+QTL mapping can easily assess the tiny transgressive segregation observed in these organisms. Animals of this type, such as ligers and mules, are often sterile since their parents have different numbers of chromosomes.
+[/INST]
+hybrids
+</s>
+
+<s>
+[INST]
+Name this play in which the title character is condemned to death by the Senate after he generously releases his Milanese prisoners, causing him to stoically accept his fate and announce that history is devoid of justice.
+[/INST]
+The Count of Carmagnola [or Il Conti di Carmagnola]
+</s>
+
+<s>
+[INST]
+The Count of Carmagnola is a play by this author, who wrote of Lucia being locked in the castle of the Unnamed while trying to reunite with her lover Renzo, after they were separated by the tyrant Don Rodrigo, in The Betrothed.
+[/INST]
+Alessandro [Francesco Tommaso] Manzoni
+</s>
+
+<s>
+[INST]
+This Italian playwright wrote an adaptation of the Francesca da Rimini legend and many works for his favorite actress La Duse, like The Dead City. He fictionalized himself as Giorgio Aursipa in his novel The Triumph of Death.
+[/INST]
+Gabriele D'Annunzio
+</s>
+
+<s>
+[INST]
+Name this Prime Minister whose steadfast opposition to apartheid have led many to speculate that South Africa may have been behind his 1985 assassination, which still remains unsolved.
+[/INST]
+ Olof Palme [or Sven Olof Joachim Palme]
+</s>
+
+<s>
+[INST]
+Olof Palme was a Prime Minister of this largest Nordic country, which retains a strong social-democratic "model" despite extensive privatizations in the early 1990s.
+[/INST]
+ Kingdom of Sweden [or Konungariket Sverige]
+</s>
+
+<s>
+[INST]
+Olof Palme was a major promoter of this specifically named policy. This policy was the goal of an organization founded at the Bandung Conference, whose leaders included Josip Tito and Jawaharlal Nehru.
+[/INST]
+non-alignment [or Non-Aligned Movement; or word forms for "alignment"; prompt on descriptive answers, such as "not taking sides in the Cold War"]
+</s>
+
+<s>
+[INST]
+Name this poem beginning "Strange now to think of you, gone without corsets &amp; eyes, while I walk on the sunny pavement of Greenwich Village". It was dedicated to the poet's mother, Naomi.
+[/INST]
+" Kaddish "
+</s>
+
+<s>
+[INST]
+"Kaddish" is by this Beat poet who described seeing the best minds of his generation destroyed in the poem Howl.
+[/INST]
+Allen Ginsberg [or Irwin Allen Ginsberg]
+</s>
+
+<s>
+[INST]
+Name this fat-soluble vitamin, important in vision, that can be synthesized from beta-carotene. Pumpkins and carrots are especially rich in this vitamin.
+[/INST]
+Vitamin A [accept retinol; or retinal; or retinoic acid]
+</s>
+
+<s>
+[INST]
+This lobe of the cerebrum is responsible for visual processing. It lies at the back of the brain.
+[/INST]
+occipital lobe
+</s>
+
+<s>
+[INST]
+Vitamin A is one of these compounds, which are composed of isoprene units. Examples of them derived from plant oils include camphor, limonene, citral, geraniol, and menthol.
+[/INST]
+terpenes [or terpenoids]
+</s>
+
+<s>
+[INST]
+Name this law, which states that the force is equal to the spring constant times the displacement.
+[/INST]
+Hooke's law
+</s>
+
+<s>
+[INST]
+This term refers to simple harmonic motion that is subject to dissipative effects that remove energy from the system. For a system's characteristic equation, the gamma parameter models the effects of this phenomenon.
+[/INST]
+damped [or word forms]
+</s>
+
+<s>
+[INST]
+For a system in simple harmonic motion, the natural frequency, usually symbolized omega-sub-naught, is the frequency at which a system will oscillate in the absence of a damping force. What is the natural frequency for an RLC circuit?
+[/INST]
+one over the square root of quantity inductance times capacitance [or square root one over L C; or obvious equivalents]
+</s>
+
+<s>
+[INST]
+Loránd Eötvös conducted experiments demonstrating that there is no difference between inertial mass and gravitational mass, a result that has this two-word name. Einstein formulated its "strong" version.
+[/INST]
+equivalence principle [accept strong equivalence principle; prompt on "equivalence"]
+</s>
+
+<s>
+[INST]
+The lower the Eötvös number, the more this phenomenon's effects dominate those of gravity. The Eötvös rule assumes a linear relationship between this phenomenon and temperature.
+[/INST]
+surface tension
+</s>
+
+<s>
+[INST]
+This 645 CE set of policies promulgated in Japan shortly after the death of Prince Shotoku established the Ritsuryo, a strange mix of Legalistic laws and Confucian rhetoric adapted for Japanese conditions.
+[/INST]
+Taika reforms [or Taiki no Kaishen]
+</s>
+
+<s>
+[INST]
+The law code of this empire was described in the Codex Mendoza. Other codices about this civilization include the Codex Barberini and Florentine Codex, which preserves its Nahuatl language.
+[/INST]
+Aztec Empire [accept Triple Alliance or Excan Tlahtoloyan]
+</s>
+
+<s>
+[INST]
+Name this middle-range string instrument also featured in Mozart's "Kegelstatt" trio with piano and clarinet.
+[/INST]
+viola
+</s>
+
+<s>
+[INST]
+Mozart also wrote two symphonies in G minor, the later of which is No. 40. Name the other.
+[/INST]
+Symphony No. 25, K. 183 / 173db [accept any underlined part, prompt on "Little" G Minor Symphony]
+</s>
+
+<s>
+[INST]
+Name this man who declared the founding of the First Indian National Army while accepting a transfer of prisoners of war at Farrer Park in 1942.
+[/INST]
+Mohan Singh
+</s>
+
+<s>
+[INST]
+After lapsing in 1942, the INA was restarted by this Indian freedom fighter with support from the Japanese. He was popularly called "Netaji" and died in a plane crash in Taiwan in August 1945.
+[/INST]
+Subhas [or Subash] Chandra Bose
+</s>
+
+<s>
+[INST]
+Joseph II tried to abruptly end this institution in the Austrian empire, but most nobles ignored him. Alexander II of Russia ended this agricultural system in 1861.
+[/INST]
+serfdom [accept any answer indicating the abolition of serfdom or the emancipation of serfs]
+</s>
+
+<s>
+[INST]
+This French intellectual wrote letters to Catherine the Great to advise her. He helped publish the treatise Anti-Machiavel after befriending Frederick the Great of Prussia.
+[/INST]
+Voltaire [or Francois-Marie Arouet]
+</s>
+
+<s>
+[INST]
+Frederick the Great commissioned this elaborate, pastel-yellow palace in Potsdam, where he hosted Voltaire and other intellectuals.
+[/INST]
+Sans-Souci
+</s>
+
+<s>
+[INST]
+Name this doctrine condemned by Pope Leo III that states that Jesus was born as solely a human, but was later taken in by God as God's son.
+[/INST]
+adoptionism (accept dynamic monarchianism)
+</s>
+
+<s>
+[INST]
+Adoptionism was officially declared a heresy at this council that also condemned Arianism. Called by Constantine the Great in 325, it issued a namesake Creed.
+[/INST]
+First Council of Nicea
+</s>
+
+<s>
+[INST]
+Name these conditional mutants, which appear as wild-type under permissive conditions but express a mutant phenotype under restrictive conditions. Their use was pioneered by Horowitz and Leupold in tests of the "one gene, one enzyme" hypothesis.
+[/INST]
+temperature-sensitive mutants [accept TS mutants; accept cold-sensitive or heat-sensitive mutants]
+</s>
+
+<s>
+[INST]
+Biologists often use temperature-sensitive mutants of this model organism, whose transcriptional activator GAL4 is the basis for a namesake two-hybrid screen. This ascomycete is related to the "fission" species S. pombe.
+[/INST]
+budding yeast [or Saccharomyces; or S. cerevisiae or other species]
+</s>
+
+<s>
+[INST]
+A large part of the protein transport pathway through the ER, Golgi, and vesicles was first studied in these yeast mutants. These mutants are the namesake of the proteins that form the translocon and COPII coat.
+[/INST]
+sec mutants/proteins [accept secretion or secretory mutants/proteins]
+</s>
+
+<s>
+[INST]
+Name these elements of reusable software that were proposed in a namesake book by the Gang of Four.
+[/INST]
+design patterns
+</s>
+
+<s>
+[INST]
+Design patterns were first proposed in a book that advocates for this programming paradigm. This paradigm stresses the importance of polymorphism, inheritance and abstraction.
+[/INST]
+object-oriented programming
+</s>
+
+<s>
+[INST]
+{{.Prompt}}
+[/INST]
+"""
+
+SYSTEM """You will receive a question and a short answer. Your task is to write a short answer to the question.Try to answer the questions."""

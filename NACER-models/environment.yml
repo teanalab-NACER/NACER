@@ -1,0 +1,17 @@
+name: conv-er
+channels:
+  - conda-forge
+  - pytorch
+  - kalefranz
+dependencies:
+  - python=3.7.7
+  - ipython
+  - gensim=4.0.1
+  - requests
+  - nltk=3.5
+  - unidecode
+  - pytorch=1.6.0
+  - cudatoolkit=10.1
+  - pandas
+  - matplotlib
+  - jcc

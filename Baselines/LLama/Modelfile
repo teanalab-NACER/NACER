@@ -1,0 +1,147 @@
+
+FROM llama2
+TEMPLATE """
+<s>
+[INST]
+{{- if .First }}
+<<SYS>>
+{{.System}}
+<</SYS>>
+{{- end }}
+
+Name this poem which opens with its title object relating the murder of its crew, after which it runs into the "furious lashing of the tides".
+[/INST]
+The Rime of the Ancient Mariner
+The Wreck of the Hesperus
+The Cremation of Sam McGee
+The Highwayman
+The Ballad of Reading Gaol
+The Raven
+The Love Song of J. Alfred Prufrock
+The Charge of the Light Brigade
+Annabel Lee
+The Song of Hiawatha
+The Drunken Boat
+</s>
+
+<s>
+[INST]
+The Drunken Boat [or Le Bateau Ivre]. The Drunken Boat was written by this French poet of A Season in Hell. He engaged in a torrid affair with Paul Verlaine and abandoned poetry by age 20.
+[/INST]
+Arthur Rimbaud
+Charles Baudelaire
+Paul Verlaine
+Stéphane Mallarmé
+Guillaume Apollinaire
+André Breton
+Victor Hugo
+Marcel Proust
+Emile Verhaeren
+Paul Eluard
+</s>
+
+<s>
+[INST]
+Arthur Rimbaud [or Jean Nicolas Arthur Rimbaud]. Rimbaud wrote of a "sublime Trumpet full of strange piercing sounds" and the "divine shudderings of viridian seas" in a poem assigning colors to these entities. Georges Perec's novel A Void only includes four of them. Georges Perec's novel A Void only includes four of them.
+[/INST]
+Vowels
+Colors
+Consonants
+Letters
+Words
+Sounds
+Novels
+Poems
+Georges Perec
+A Void
+</s>
+
+<s>
+[INST]
+Name this play by Ariel Dorfman in which Paulina tells her husband that Dr. Miranda tortured and raped her while playing the title string quartet.
+[/INST]
+Death and the Maiden
+The Nanny
+Widows
+The Other Side
+Speak Truth to Power
+Purgatorio
+The Resistance
+My Children! My Africa!
+La Muerte y la Doncella
+The Reader
+</s>
+
+<s>
+[INST]
+Death and the Maiden. Near the end of Death and the Maiden, the stage directions call for a gigantic one of these objects to descend. The audience is supposed to absorb its presence for a few minutes before the action continues.
+[/INST]
+Mirror
+Clock
+Candle
+Cross
+Feather
+Chandelier
+Portrait
+Book
+Statue
+Screen
+</s>
+
+<s>
+[INST]
+mirror [accept equivalents]. Death and the Maiden is one of the works in the Ariel Dorfman's Resistance Trilogy, which also includes this play about the censor Don Alfonso discovering that the subversive manuscript he is about to ban is actually about himself.
+[/INST]
+La Muerte y la Doncella" (Death and the Maiden)
+Widows
+Speak Truth to Power
+Purgatorio
+The Other Side
+The Resistance
+The Nanny
+Imagining Argentina
+Picasso's Closet
+Delirium
+</s>
+
+<s>
+[INST]
+In 1863, men in New York rioted over this practice, which was in effect thanks to the Civil War. President Lincoln had to round up volunteer forces who had just fought in Gettysburg to quell the riots over this.
+[/INST]
+Draft or Conscription
+Emancipation Proclamation
+Martial Law
+Income Tax
+Fugitive Slave Act
+Cotton Diplomacy
+Blockade
+Habeas Corpus
+Homestead Act
+Tariffs
+</s>
+
+<s>
+[INST]
+the draft or forced conscription. Meanwhile, also in 1863, people rioted over a lack of bread in this Confederate city. The rioters were almost entirely women.
+[/INST]
+Richmond
+Atlanta
+Charleston
+Mobile
+Nashville
+New Orleans
+Montgomery
+Memphis
+Wilmington
+Savannah
+</s>
+
+
+
+<s>
+[INST]
+{{.Prompt}}
+[/INST]
+"""
+
+SYSTEM """This is a system for conversational search of Wikipedia articles. It is designed to return the titles of the top 10 Wikipedia articles ranked according to their likelihood of answering a given query, while taking into account the top ranked Wikipedia article title for the preceding query. Given a query, find and rank the top 10 Wikipedia article titles according to each article's likelihood of answering a given query, while taking into account the top ranked Wikipedia article title for the preceding query. Do not try to explain the answers."""
