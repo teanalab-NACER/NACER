@@ -27,7 +27,7 @@ The baseline models are organized in the "Baselines" folder, which includes sepa
 
 - **BM25F:** Implementation details are provided in a separate README file within its folder.
 - **KV-MemNN:** Models are implemented in `model_kvmem*.py` and `collect_kvmem_triples.py`.
-- **GENRE:** Implementation file is `??????`. (Please update with the correct filename.)
+- **GENRE:** Implementation details are provided in a separate README file within its folder.
 - **LLaMa:** Implemented in `ollam_me.py`.
 
 Statistical significance of the results is calculated using `calculate_stat_significance.py`.
