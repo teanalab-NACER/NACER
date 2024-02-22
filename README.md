@@ -34,3 +34,4 @@ Statistical significance of the results is calculated using `calculate_stat_sign
 
 ## Citation
 If you find this work useful, please cite our paper:
+"Benchmark and Neural Architecture for Conversational Entity Retrieval from a Knowledge Graph," presented at the ACM Web Conference 2024 (WWW ’24), authored by Mona Zamiri, Yao Qiang, Fedor Nikolaev, Dongxiao Zhu, Alexander Kotov.
