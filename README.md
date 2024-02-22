@@ -32,6 +32,9 @@ The baseline models are organized in the "Baselines" folder, which includes sepa
 
 Statistical significance of the results is calculated using `calculate_stat_significance.py`.
 
+## Acknowledgments
+This work is supported by the National Institutes of Health under the award #1R21NR020388-01A1 and by the National Science Foundation under the award #2211897
+
 ## Citation
 If you find this work useful, please cite our paper:
 
